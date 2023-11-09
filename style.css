@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://i.postimg.cc/PxL8w33n/nba-plain-86438c5f-5cbf-4647-b87a-5bf1d65993bc.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main-container {
+    background: rgb(12,72,173);
+background: linear-gradient(180deg, rgba(12,72,173,1) 0%, rgba(171,241,245,0.9080882352941176) 49%, rgba(255,255,255,1) 78%, rgba(43,177,246,1) 91%, rgba(17,168,235,0.7120098039215687) 100%);
+}
+ .main-container {
+    border: solid white;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    
+    
+ }
+
+ .contenedor-login {
+    /* border: solid red; */
+    
+    flex-direction: column;
+    
+ }
+
+ .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: solid ;  
+ }
+
+ .container-input {
+    /* border: solid rebeccapurple; */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+ }
+
+ input{
+    border-radius: 20px;
+    height: 22px;
+    width: 250px;
+    margin-bottom: 15px;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ .boton {
+    background-color: red;
+    height: 40px;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .boton:hover {
+    background-color: black;
+    color: rgb(42, 165, 56);
+ }
+
+ input:hover {
+    background-color: black;
+    color: rgb(42, 165, 56);
+ }
+ a:hover {
+    color: rgb(42, 165, 56)
+ }
